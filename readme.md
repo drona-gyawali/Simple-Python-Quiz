@@ -12,18 +12,18 @@ This is a simple Python-based quiz program that asks multiple-choice questions a
 
 1. Ensure Python is installed on your system (preferably Python 3.x).
 2. Save the following files:
-    - `quiz.py`: The main Python file that contains the quiz logic.
+    - `main.py`: The main Python file that contains the quiz logic.
     - `question.py`: A file that contains the `Question` class and `get_questions()` function to define your questions.
 
 3. To run the quiz, open your terminal or command prompt and navigate to the directory where the files are saved. Then, run the program:
 
     ```bash
-    python quiz.py
+    python main.py
     ```
 
 ## File Structure
 
-- `quiz.py`: Contains the main logic for the quiz.
+- `main.py`: Contains the main logic for the quiz.
 - `question.py`: Contains the `Question` class definition and the `get_questions()` function, which returns a list of questions.
 
 ### Example of `question.py`
